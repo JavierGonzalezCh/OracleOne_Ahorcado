@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url('./imagenes/bckground-canvas.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.titulo{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30vh;
+    color: gold;
+    font-size: 80px;
+    text-shadow: 5px 5px #558ABB;
+}
+.btn{
+    display: block;
+    height: 2rem;
+    width: 8rem;
+    background-color: white;
+    font-size: medium ;
+    border: 2px black solid;
+    text-decoration: none;
+    line-height: 2rem;
+    text-align: center;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.btn:visited{
+    color: black;
+}
+
+.pie{
+    color: white;
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-top: 4rem;
+}

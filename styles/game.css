@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    background-image: url('./imagenes/bckground.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contenedor1{
+    background-image: url('./imagenes/bckground-canvas.svg');
+    display: block;
+    width: 50%;
+    margin: 2%;
+    border-radius: 15px;
+    border: solid black 3px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 209, 117);
+    border: solid 3px black;
+    border-radius: 10px;
+    height: 80vh;
+    width: 30%;
+    margin: 2% auto;
+    gap: 5%;
+}
+.input-letras{
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.letras{
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    height: 2.5rem;
+    width: 30px;
+    border-bottom: 3px solid black;
+}
+.contenedor3{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.contenedor4{
+    text-align: center;
+    width: 80%;
+    min-height: 2rem;
+    margin: 0 auto;
+}
+.errores{
+    border: 2px solid black;
+    width: 80%;
+    min-height: 2rem;
+    list-style: none;
+    display: flex;
+    flex: row;
+    gap: 20px;
+}
+.error{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.btn{
+    height: 2rem;
+    width: 8rem;
+    background-color: white;
+    font-size: medium ;
+    border: 2px black solid;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.inicio{
+    text-decoration: none;
+    line-height: 2rem;
+    text-align: center;
+    background-color: gold;
+}
+.inicio:visited{
+    color: black;
+}
+.inicio:hover{
+    background-color: rgb(241, 212, 45);
+}
+.green:hover{
+    background-color: rgb(65, 161, 65);
+}
+.red:hover{
+    background-color: red;
+}
