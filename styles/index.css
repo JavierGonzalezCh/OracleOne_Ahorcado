@@ -2,7 +2,7 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url('./imagenes/bckground-canvas.svg');
+    background-image: url('../imagenes/bckground.webp');
     background-repeat: no-repeat;
     background-size: cover;
     
