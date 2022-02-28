@@ -4,13 +4,13 @@
 body{
     display: flex;
     flex-direction: row;
-    background-image: url('./imagenes/bckground.webp');
+    background-image: url('../imagenes/bckground.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .contenedor1{
-    background-image: url('./imagenes/bckground-canvas.svg');
+    background-image: url('../imagenes/bckground-canvas.svg');
     display: block;
     width: 50%;
     margin: 2%;
