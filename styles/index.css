@@ -2,10 +2,11 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url('../imagenes/bckground.webp');
+    background-image: url('../img/bckground.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    height: 100vh;
+    overflow: hidden;
 }
 .titulo{
     font-family: sans-serif;
@@ -27,11 +28,15 @@ body{
     text-align: center;
     margin: 5px auto;
     cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    margin-bottom: 10px;
 }
 .btn:visited{
     color: black;
 }
-
 .pie{
     color: white;
     position: relative;

@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="styles/game.css">
 </head>
 <body>
-    <canvas width="600" height="300" class="contenedor1"></canvas>
-    <section class="contenedor2">
-        <h1>Juguemos!</h1>
-        <label for="input-letras" class="label-letras">Ingresa una letra 
-            <input autofocus class="input-letras" id="input-letras" type="text" maxlength="1">
-        </label>
-        <section class="contenedor3">
-        </section>
-        <section class="contenedor4">
-            <h3>Letras Usadas</h3>
-            <ul class="errores">
-            </ul>
-        </section>
-        <section class="contenedor5">
-            <button class="btn green" id="nuevo">Nuevo juego</button>
-            <button class="btn red" id="desistir" type="button">Desistir</button>
-        </section>
-        <a href="index.html" class="btn inicio">Inicio</a>
-    </section>
+    <main>
+        <canvas width="600" height="300" class="contenedor1"></canvas>
+        <section class="contenedor2">
+            <h1>Juguemos!</h1>
+            <label for="input-letras" class="label-letras">Ingresa una letra 
+                <input autofocus class="input-letras" id="input-letras" type="text" maxlength="1">
+            </label>
+            <section class="contenedor3">
+            </section>
+            <section class="contenedor4">
+                <h3>Letras Usadas</h3>
+                <ul class="errores">
+                </ul>
+            </section>
+            <section class="contenedor5">
+                <button class="btn green" id="nuevo">Nuevo juego</button>
+                <button class="btn red" id="desistir" type="button">Desistir</button>
+            </section>
+            <a href="index.html" class="btn inicio">Inicio</a>
+        </section>  
+    </main>
 
     <script src="scripts/selectWord.js"></script>
     <script src="scripts/canvas.js"></script>

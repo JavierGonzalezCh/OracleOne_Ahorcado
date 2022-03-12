@@ -2,15 +2,16 @@
     font-family: sans-serif;
 }
 body{
-    display: flex;
-    flex-direction: row;
-    background-image: url('./imagenes/bckground.webp');
+    background-image: url('../img/bckground.webp');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
+main{
+    display: flex;
+    flex-direction: row;
+}
 .contenedor1{
-    background-image: url('./imagenes/bckground-canvas.svg');
+    background-image: url('../img/bckground-canvas.svg');
     display: block;
     width: 50%;
     margin: 2%;
@@ -76,8 +77,9 @@ body{
     background-color: white;
     font-size: medium ;
     border: 2px black solid;
+    border-radius: 5px;
     cursor: pointer;
-    margin: 0 auto;
+    margin: 5px 25%;
 }
 .inicio{
     text-decoration: none;
@@ -96,4 +98,18 @@ body{
 }
 .red:hover{
     background-color: red;
+}
+
+@media (max-width: 800px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor1, .contenedor2{
+        width: 90%;
+    }
+    .btn{
+        margin: 5px auto;
+    }
+    
 }

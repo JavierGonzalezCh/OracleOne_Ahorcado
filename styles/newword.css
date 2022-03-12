@@ -3,7 +3,7 @@
     margin: auto;
 }
 body{
-    background-image: url('../imagenes/bckground.webp');
+    background-image: url('../img/bckground.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,6 +48,13 @@ main{
     background-color: white;
     font-size: medium ;
     border: 2px black solid;
+}
+.btn, .game{
+    border-radius: 5px;
+}
+.btn:hover, .game:hover{
+    transform: scale(1.2);
+    margin-bottom: 10px;
 }
 .game:visited{
     color:black
