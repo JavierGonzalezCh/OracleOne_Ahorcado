@@ -21,7 +21,7 @@ const iniciarJuego = () =>{ /* Crea las lineas de las letras */
 iniciarJuego()
 
 const letraRepetida = (e) => { /* Evalua que las letras no esten repetidas */
-    let letraIngresada = inputLetras.value;
+    let letraIngresada = inputLetras.value.toLowerCase();
     if (letrasUsadas.indexOf(letraIngresada) == -1) {
         letrasUsadas.push(letraIngresada);
         añadirLetra(letraIngresada);
